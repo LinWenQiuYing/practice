@@ -22,7 +22,6 @@ export default {
     changeMenu(path) {
       let pathArr = this.$route.path.split('/');
       if (path === pathArr[pathArr.length - 1]) {
-        console.log('bingo');
         return false;
       } else {
         this.$router.push(path)
