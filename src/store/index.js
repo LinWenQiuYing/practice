@@ -41,7 +41,7 @@ const store = new Vuex.Store({
       return new Promise((resolve) => {
         setTimeout(() => {
           context.commit('updateInfo');
-          console.log(payload);
+          // console.log(payload);
           resolve('test111111')
         }, 1000)
       })

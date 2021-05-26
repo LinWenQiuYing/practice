@@ -4,10 +4,14 @@
   </div>
 </template>
 <script>
+
 export default {
   name: "Hot",
   data() {
    return {}
+  },
+  components: {
+    
   },
   mounted() {
     

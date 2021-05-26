@@ -1,13 +1,19 @@
 <template>
   <div>
-    <h2>新品</h2>
+    <h2>
+      <span>新品</span>
+    </h2>
   </div>
 </template>
 <script>
+
 export default {
   name: "New",
   data() {
    return {}
+  },
+  components: {
+    
   },
   mounted() {
     
